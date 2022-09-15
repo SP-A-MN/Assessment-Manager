@@ -1,14 +1,20 @@
 .container-flex {
+    position: absolute;
     display: flex;
+    width: 100%;
+    height: 2rem;
 
     justify-content: space-around;
-    background-color: #202030;
+    background-color: var(--raisin-black);
+    box-shadow: rgb(0, 0, 0, 0.45) 1px 3px 10px;
 }
 
 .container-flex > * {
-    color: #D5D4CA;
+    position: relative;
+    color: var(--timberwolf);
 
     text-decoration: none;
+    line-height: 150%;
 }
 
 .container-flex > *:hover {
